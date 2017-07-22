@@ -1,4 +1,5 @@
-﻿<!DOCTYPE HTML>
+
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<title>Food Recipes - Food Recipes & Healthy Tips</title>
@@ -19,22 +20,25 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
-
+        <form id="form1" runat="server" style="width:100%;">
 		<!-- Wrapper -->
 			<div class="wrapper style1">
 
 				<!-- Header -->
 					<div id="header" class="skel-panels-fixed">
 						<div id="logo">
-							<h1><a href="index.html">FOOD RECIPES & HEALTHY TIPS</a></h1>
+							<h1><a href="index1.aspx">FOOD RECIPES & HEALTHY TIPS</a></h1>
 							<!-- <span class="tag">by TEMPLATED</span> -->
 						</div>
 						<nav id="nav">
 							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="left-sidebar.html">Recipes & Healthy Tips</a></li>
-								<li><a href="right-sidebar.html">Contact Us</a></li>
-                                <li><a href="../Default.aspx">SignIn or SignUp</a></li>							
+								<li class="active"><a href="index1.aspx">Home</a></li>
+								<li><a href="left-sidebar.aspx">Recipes & Healthy Tips</a></li>
+								<li><a href="right-sidebar.aspx">Contact Us</a></li>
+                                <%--<li><a href="../Default.aspx">SignIn or SignUp</a></li>--%>
+                                
+                                <!--<asp:Button runat="server" ID="buttonlogout" Text="Logout" OnClick="buttonlogout_Click" style="margin-right:10px;font-weight:bold;color:#ffffff;background:none;"></asp:Button>-->
+							
 
 							</ul>
 						</nav>
@@ -191,8 +195,9 @@
 					<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
 					<li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
 				</ul>
+             <h6 style="color: #fff ; font-size:12px; font-weight:normal;">&copy; All Rights Reserved. Design By | Garima Pandey</h6>
 			</div>
 		
-
+</form>
 	</body>
 </html>
