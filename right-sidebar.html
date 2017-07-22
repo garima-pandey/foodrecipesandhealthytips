@@ -1,4 +1,6 @@
-﻿<!DOCTYPE HTML>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="right-sidebar.aspx.cs" Inherits="right_sidebar" %>
+
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<title>Food Recipes & Healthy Tips</title>
@@ -19,7 +21,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
-
+        <form id="form1" runat="server" style="width:100%;">
 		<!-- Wrapper -->
 			<div class="wrapper style1">
 
@@ -34,7 +36,11 @@
 								<li class="active"><a href="index.html">Home</a></li>
 								<li><a href="left-sidebar.html">Recipes & Healthy Tips</a></li>
 								<li><a href="right-sidebar.html">Contact Us</a></li>
-								<li><a href="../Default.aspx">SignIn or SignUp</a></li>
+								
+
+
+                               <!--<asp:Button runat="server" ID="buttonlogout" Text="Logout" OnClick="buttonlogout_Click" style="margin-right:10px;font-weight:bold;color:#ffffff;background:none;"></asp:Button>-->
+							
 							</ul>
 						</nav>
 					</div>
@@ -51,13 +57,13 @@
 										<h2>Contact Us</h2>
 										<!-- <span class="byline">Integer sit amet pede vel arcu aliquet pretium</span> -->
 									</header>
-                                    <Strong>ADDRESS:</Strong><br>
-                                    B-1/43 Kiran Garden<br>
-                                    Nawada, New Delhi<br>
+                                    <Strong><!-- ADDRESS: --> Location:</Strong><br>
+                                    <!-- B-1/43 Kiran Garden -->West Delhi<br>
+                                    <!-- Nawada, New Delhi<br> -->
                                     <p><strong>Pincode No.:</strong> 110059</p>
 									<!--<p>--><strong>Email:</strong> pgarima148@gmail.com<!--</p>--><br>
-									<!--<p>--><strong>Mobile No.:</strong> 9810887458<!--</p>--><br>
-                                    <strong>Powered By:</strong> Food Portal & Healthy Tips
+									<!--<p>--><!--<strong>Mobile No.:</strong> 9810887458--><!--</p>--><!--<br>-->
+                                    <strong>Powered By:</strong> Food Recipes & Healthy Tips
 									<!--<p>Maecenas pede nisl, elementum eu, ornare ac, malesuada at, erat. Proin gravida orci porttitor enim accumsan lacinia. Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Aliquam lacinia metus ut elit.</p>-->
 								</section>
 							</div>
@@ -193,9 +199,13 @@
 					<li><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
 					<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
 					<li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
-				</ul>
-			</div>
-		</div>
 
+				</ul>
+              <h6 style="color: #fff ; font-size:12px; font-weight:normal;">&copy; All Rights Reserved. Design By | Garima Pandey</h6>
+			</div>
+
+            
+		<!--</div>-->
+            </form>
 	</body>
 </html>
